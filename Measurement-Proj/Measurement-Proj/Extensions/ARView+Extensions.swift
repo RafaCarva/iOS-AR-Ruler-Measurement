@@ -11,6 +11,7 @@ import RealityKit
 
 extension ARView {
     
+    // Configura os parêmetros da ajuda que aparece na tela para o user.
     func addCoachingOverlay() {
         let coachingView = ARCoachingOverlayView()
         coachingView.goal = .horizontalPlane
